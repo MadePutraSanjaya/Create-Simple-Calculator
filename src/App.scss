@@ -1,0 +1,58 @@
+$bgbody : #141414;
+$btn-num : #ffffff;
+$btn-stat : #FFA500;
+
+* {
+  text-align: center;
+}
+ .calculator-body {
+  text-align: center;
+}
+
+.result {
+  height: 80px;
+  background-color: #141414;
+  width: 75%;
+  margin: auto;
+  padding-top: 1px;
+  color: white;
+  padding-bottom: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.result p {
+  font-size: 40px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  width: 300px;
+  margin: auto;
+  background-color: #141414;
+  border-radius: 0 0 10px 10px;
+}
+
+button {
+  border-radius: 100px;
+  width: 15%;
+  height: 45px;
+  margin: 5px;
+  border: transparent;
+  font-size: 20px;
+}
+
+.button .grey{
+  background-color: gray;
+  color: black;
+}
+
+.button .orange{
+  background-color: #FFA500;
+  color: white;
+}
